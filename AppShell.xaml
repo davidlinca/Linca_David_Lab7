@@ -8,7 +8,7 @@
     Title="Linca_David_Lab7">
 
     <ShellContent
-        Title="Home"
+        Title="Welcome"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
@@ -20,6 +20,10 @@
         <ShellContent
             Title="About"
             ContentTemplate="{DataTemplate local:AboutPage}"
+        />
+        <ShellContent 
+            Title="My Shopping Lists" 
+            ContentTemplate="{DataTemplate local:ListEntryPage}"
         />
     </TabBar>
 </Shell>
