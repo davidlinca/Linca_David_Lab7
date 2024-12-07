@@ -1,4 +1,9 @@
-﻿namespace Linca_David_Lab7
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Hosting;
+using Microsoft.Maui.Controls.Compatibility;
+using Microsoft.Maui.Controls.Hosting;
+
+namespace Linca_David_Lab7
 {
     public partial class MainPage : ContentPage
     {
